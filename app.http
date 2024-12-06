@@ -1,0 +1,72 @@
+POST https://venkatasubbaraohow31njscpikngv.drops.nxtwave.tech/register
+Content-Type: application/json
+
+{
+  "username": "christopher_phillips",
+  "password": "christy@123"
+}
+
+###
+
+POST https://venkatasubbaraohow31njscpikngv.drops.nxtwave.tech/login/
+Content-Type: application/json
+
+{
+  "username": "christopher_phillips",
+  "password": "christy@123"
+}
+
+###
+
+GET https://venkatasubbaraohow31njscpikngv.drops.nxtwave.tech/states/
+Authorization: Bearar eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzE3NTg3Mzc1fQ.tDaNuKLs8fyX5rKiN0byiWzWoJuZ8efaKNrjlJJq4eQ
+###
+
+GET https://venkatasubbaraohow31njscpikngv.drops.nxtwave.tech/states/2/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzE3NTgzNzYwfQ.QACRjuKignY2jjbPB18mf5Z3HIIEOA3i1Ln8uAPlkHQ
+
+###
+
+POST https://venkatasubbaraohow31njscpikngv.drops.nxtwave.tech/districts/
+Content-Type: application/json
+Authorization: Bearar eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzE3NTg1Njk3fQ.htGCb3IUE1_tzOzhrsV5ehXa_Uy7JeBjugBGfPB3t-c
+
+{
+  "districtName": "Bagalkot",
+  "stateId": 3,
+  "cases": 2323,
+  "cured": 2000,
+  "active": 315,
+  "deaths": 8
+}
+
+###
+
+GET https://venkatasubbaraohow31njscpikngv.drops.nxtwave.tech/districts/50/
+Authorization: Bearar eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzE3NTg1Njk3fQ.htGCb3IUE1_tzOzhrsV5ehXa_Uy7JeBjugBGfPB3t-c
+
+###
+
+DELETE https://venkatasubbaraohow31njscpikngv.drops.nxtwave.tech/districts/4/
+Authorization: Bearar eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzE3NTg1Njk3fQ.htGCb3IUE1_tzOzhrsV5ehXa_Uy7JeBjugBGfPB3t-c
+
+###
+
+
+PUT https://venkatasubbaraohow31njscpikngv.drops.nxtwave.tech/districts/4/
+Content-Type: application/json
+Authorization: Bearar eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzE3NTg1Njk3fQ.htGCb3IUE1_tzOzhrsV5ehXa_Uy7JeBjugBGfPB3t-c
+
+{
+  "districtName": "Nadia",
+  "stateId": 3,
+  "cases": 9628,
+  "cured": 6524,
+  "active": 3000,
+  "deaths": 104
+}
+
+###
+
+GET https://venkatasubbaraohow31njscpikngv.drops.nxtwave.tech/states/7/stats/
+Authorization: Bearar eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzE3NTg1Njk3fQ.htGCb3IUE1_tzOzhrsV5ehXa_Uy7JeBjugBGfPB3t-c
